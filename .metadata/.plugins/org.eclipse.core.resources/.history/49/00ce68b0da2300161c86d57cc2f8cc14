@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>*</members>
@@ -18,6 +18,9 @@
     </types>
     <types>
         <members>*</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
@@ -62,15 +65,12 @@
         <members>Task</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
+        <members>*</members>
         <name>CustomObject</name>
     </types>
     <types>
         <members>*</members>
         <name>CustomObjectTranslation</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>StaticResource</name>
     </types>
     <version>35.0</version>
 </Package>
